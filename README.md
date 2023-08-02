@@ -16,6 +16,8 @@ MongoDB: A NoSQL database used to store CRUD data.
 
 xlsx: A popular library for reading and writing Excel files, utilized to import data from an Excel sheet.
 
+Insomnia: A popular request/response handler software that is used to check our request and response using localhost 
+
 **Key Features**
 
 CRUD Operations: The API allows users to perform all CRUD operations on the data, providing full control over managing the data collection.
@@ -30,7 +32,18 @@ File Download: The API enables users to download data from the MongoDB collectio
 
 To run this project locally, follow the installation steps outlined in the repository's README.md file. Ensure you have Node.js, MongoDB, and other required dependencies installed.
 
-**Usage****
+**Required npm-packages**
+1. MongoDB
+2. xlsx
+3. express
+4. body-parser
+5. nodemon
+
+**Database Configuration**
+1. Open the 'db.js' file located in the project's root directory.
+2. Replace the 'mongoURI' value with your MongoDB Atlas connection string. (mongodb+srv://tsrviswajeth:password @excel.4nctr3z.mongodb.net/?retryWrites=true&w=majority)
+
+**Usage**
 
 The repository provides detailed usage instructions for setting up and running the API. It explains how to perform CRUD operations, import data from Excel, and download data as Excel files.
 
